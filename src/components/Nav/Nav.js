@@ -11,11 +11,11 @@ function Nav() {
       <div className="container">
         <div className="Logo">logo</div>
         <ul>
-          <li><a href="#">Home Furniture</a></li>
-          <li><a href="#">Office Furniture</a></li>
-          <li><a href="#">Mattresses </a></li>
-          <li><a href="#">Kids Furniture</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="/">Home Furniture</a></li>
+          <li><a href="/">Office Furniture</a></li>
+          <li><a href="/">Mattresses </a></li>
+          <li><a href="/">Kids Furniture</a></li>
+          <li><a href="/">Contacts</a></li>
         </ul>
       </div>
     </nav>

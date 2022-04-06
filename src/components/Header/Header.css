@@ -1,9 +1,14 @@
 .Header {
-  background-color: rgb(152, 238, 238);
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .Header h1 {
   margin: 0;
   text-align: center;
+  color: rgb(37, 128, 128);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 .Header div {
   
