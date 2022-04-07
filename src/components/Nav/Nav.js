@@ -9,7 +9,11 @@ function Nav() {
 
     <nav className="Nav">
       <div className="container">
-        <div className="Logo">logo</div>
+        <div className="Logo">
+          <div>CHAIR</div>
+          <span>Make your space work</span>
+        </div>
+        
         <ul>
           <li><a href="/">Home Furniture</a></li>
           <li><a href="/">Office Furniture</a></li>

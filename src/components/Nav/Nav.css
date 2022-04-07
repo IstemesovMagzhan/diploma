@@ -2,15 +2,18 @@
   display: flex;
   background-color: rgb(249, 181, 55);
   justify-content: space-between;
-  
 }
 .Logo {
+  display: flex;
   padding: 1rem;
+  
+}
+.Logo div {
   font-weight: bolder;
+  padding-right: 5px;
+  border-right: 2px solid black;
 }
-.Nav {
-  list-style-type: none;
-}
+
 .Nav ul {
   display: flex;
   list-style-type: none;
