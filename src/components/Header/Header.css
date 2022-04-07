@@ -1,7 +1,8 @@
 .Header {
-  min-height: 50vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  flex-wrap: wrap;
+  min-height: 60vh;
 }
 .Header h1 {
   margin: 0;

@@ -5,6 +5,7 @@ function Header() {
 
   const style = {
     backgroundImage: `url(${headerImage})`,
+    backgroundSize: "100% 100%"
   };
   
   return ( 
