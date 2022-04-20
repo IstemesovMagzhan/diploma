@@ -2,3 +2,14 @@
   display: flex;
   align-items: center;
 }
+.Logo div {
+  font-weight: bolder;
+  padding: 0 1rem 0 0;
+  border-right: 2px solid rgb(120, 190, 32);
+  color: rgb(120, 190, 32);
+  font-size: 2rem;
+}
+.Logo span {
+  font-size: 18px;
+  padding-left: 0.1rem;
+}

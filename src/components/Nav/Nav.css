@@ -4,31 +4,13 @@
   justify-content: space-between;
   align-items: center;
 }
-.Logo {
-  display: flex;
-  align-items: center;
-}
-.Logo div {
-  font-weight: bolder;
-  padding-right: 5px;
-  border-right: 2px solid rgb(120, 190, 32);
-  color: rgb(120, 190, 32);
-  font-size: 2rem;
-}
+
 
 .Nav ul {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0 1rem;
 }
  
-.Nav a {
-  display: block;
-  padding: 0 1rem ;
-  text-decoration: none;
-  color: rgb(0, 60, 62);
-}
-.Nav a:hover {
- text-decoration: underline;
-}
+
+
