@@ -1,6 +1,7 @@
 
 import "./Nav.css";
 import Logo from "../ui/Logo/Logo";
+import NavItem from "./NavItem/NavItem";
 
 function Nav() {
 
@@ -12,11 +13,11 @@ function Nav() {
     <nav className="Nav">
       <Logo /> 
         <ul>
-          <li><a href="/">Chairs</a></li>
-          <li><a href="/">Tables</a></li>
-          <li><a href="/">Desks</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Contacts</a></li>
+          <NavItem url="/"active>Tables</NavItem>
+          <NavItem url="/" >Chairs</NavItem>
+          <NavItem url="/">Desks</NavItem>
+          <NavItem url="/">About</NavItem>
+          <NavItem url="/">Contacts</NavItem>
         </ul>
     </nav>
 
