@@ -1,4 +1,6 @@
+
 import "./Nav.css";
+import Logo from "../ui/Logo/Logo";
 
 function Nav() {
 
@@ -8,20 +10,14 @@ function Nav() {
   return (
 
     <nav className="Nav">
-      <div className="container">
-        <div className="Logo">
-          <div>CHAIR</div>
-          <span>Make your space work</span>
-        </div>
-        
+      <Logo /> 
         <ul>
-          <li><a href="/">Home Furniture</a></li>
-          <li><a href="/">Office Furniture</a></li>
-          <li><a href="/">Mattresses </a></li>
-          <li><a href="/">Kids Furniture</a></li>
+          <li><a href="/">Chairs</a></li>
+          <li><a href="/">Tables</a></li>
+          <li><a href="/">Desks</a></li>
+          <li><a href="/">About</a></li>
           <li><a href="/">Contacts</a></li>
         </ul>
-      </div>
     </nav>
 
   );
