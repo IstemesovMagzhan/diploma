@@ -13,11 +13,11 @@ function Nav() {
     <nav className="Nav">
       <Logo /> 
         <ul>
-          <NavItem url="/"active>Tables</NavItem>
-          <NavItem url="/" >Chairs</NavItem>
-          <NavItem url="/">Desks</NavItem>
-          <NavItem url="/">About</NavItem>
-          <NavItem url="/">Contacts</NavItem>
+          <NavItem url="/tables"active>Tables</NavItem>
+          <NavItem url="/chairs" >Chairs</NavItem>
+          <NavItem url="/desks">Desks</NavItem>
+          <NavItem url="/about">About</NavItem>
+          <NavItem url="/contacts">Contacts</NavItem>
         </ul>
     </nav>
 
