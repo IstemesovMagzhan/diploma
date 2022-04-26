@@ -3,7 +3,9 @@ import "./Footer.css";
 function Footer() {
   return ( 
     <footer className="Footer">
-      <div>Super Chair 2022</div>
+      <div className="container">
+        <section>Super Chair 2022</section>
+      </div>
     </footer>
    );
 }

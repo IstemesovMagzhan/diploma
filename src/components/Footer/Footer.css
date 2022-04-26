@@ -1,5 +1,7 @@
+Footer {
+  background-color: rgb(240, 222, 187);
+}
 .Footer div {
   text-align: center;
-  background-color: rgb(240, 222, 187);
   padding: 1rem;
 }

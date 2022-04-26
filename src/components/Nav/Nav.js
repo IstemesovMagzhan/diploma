@@ -11,6 +11,7 @@ function Nav() {
   return (
 
     <nav className="Nav">
+      <div className="container">
       <Logo /> 
         <ul>
           <NavItem url="/tables"active>Tables</NavItem>
@@ -19,6 +20,7 @@ function Nav() {
           <NavItem url="/about">About</NavItem>
           <NavItem url="/contacts">Contacts</NavItem>
         </ul>
+      </div>
     </nav>
 
   );
