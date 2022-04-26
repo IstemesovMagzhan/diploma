@@ -5,7 +5,7 @@ function NavItem(props) {
 
   return (
     <li className="NavItem">
-      <NavLink to={props.url} active={props.active}>
+      <NavLink to={props.url}>
       {props.children}
       </NavLink>
     </li>

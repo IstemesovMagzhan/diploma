@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
 }
-.Logo div {
+.Logo div a {
+  text-decoration: none;
   font-weight: bolder;
   padding: 0 1rem 0 0;
   border-right: 2px solid rgb(120, 190, 32);
