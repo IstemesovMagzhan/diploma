@@ -1,16 +1,15 @@
 import "./Header.css";
-import headerImage from "../../assets/header.jpg";
 
-function Header() {
-
-  const style = {
-    backgroundImage: `url(${headerImage})`,
-  };
-  
+function Header({ image, title, children,}) {
+ 
   return ( 
-    <header style={style} className="Header" >
-      <h1>CHAIRS</h1>
-      <div>(More than 200 Products)</div> 
+    
+    <header className="Header" >
+      <img src={image} />
+      <section>
+        <h1>{title}</h1>
+        <div>{children}</div>
+      </section> 
     </header>
    );
 }

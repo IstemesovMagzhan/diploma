@@ -1,9 +1,17 @@
+import Header from "../components/Header/Header";
+import aboutImage from "../assets/about.jpg";
+
 function About() {
   return ( 
-    <article>
-      <h1>MUCH MORE THAN WORK HAPPENS AT A WORKPLACE.</h1>
-      <p>We believe a thoughtfully designed work space sets the stage for better work…</p>
-    </article>
+    <>
+      <Header 
+        title="Small Business NOW."
+        image={aboutImage}>
+        <p>We believe a thoughtfully designed work space sets the stage for better work…</p>
+        
+        
+      </Header>
+    </>
    );
 }
 

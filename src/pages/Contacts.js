@@ -1,10 +1,16 @@
+import Header from "../components/Header/Header";
+import contactsImage from "../assets/contacts.jpg";
+
+
 function Contacts() {
   return ( 
-    <div>
-      <h1>Contacts +996702700834</h1>
-      <div>Make your space work</div>
-    </div>
-    
+    <>
+      <Header
+        title="Make your space work"
+        image={contactsImage}>
+        <p>Contacts +996702700834</p>
+      </Header>
+    </>
    );
 }
 
