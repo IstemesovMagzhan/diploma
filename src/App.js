@@ -1,6 +1,4 @@
-import Nav from "./components/Nav/Nav";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+
 import Tables from "./pages/Tables";
 import Chairs from "./pages/Chairs";
 import About from "./pages/About";
