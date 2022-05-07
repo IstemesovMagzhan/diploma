@@ -8,8 +8,11 @@ function Contacts() {
       <Header
         title="Make your space work"
         image={contactsImage}>
-        <p>Contacts +996702700834</p>
+        
       </Header>
+      <main>
+        <div>Contacts +996702700834</div>
+      </main>
     </>
    );
 }

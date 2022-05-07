@@ -14,7 +14,8 @@ function Nav() {
       <div className="container">
       <Logo /> 
         <ul>
-          <NavItem url="/tables"active>Tables</NavItem>
+          <NavItem url="/home"active>Home</NavItem>
+          <NavItem url="/tables">Tables</NavItem>
           <NavItem url="/chairs" >Chairs</NavItem>
           <NavItem url="/desks">Desks</NavItem>
           <NavItem url="/about">About</NavItem>
