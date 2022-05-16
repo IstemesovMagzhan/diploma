@@ -3,7 +3,7 @@ import "./Logo.css";
 function Logo() {
   return ( 
     <div className="Logo">
-      <div><a href="#">CHAIR</a></div>
+      <div>CHAIR</div>
       <span>Make your space work</span>
     </div>
    );
