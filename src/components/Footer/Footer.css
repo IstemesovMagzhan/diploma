@@ -1,7 +1,8 @@
 Footer {
-  background-color: rgb(240, 222, 187);
+  background-color: black;
 }
 .Footer div {
   text-align: center;
   padding: 1rem;
+  color: white;
 }

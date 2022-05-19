@@ -1,5 +1,5 @@
-import Header from "../components/Header/Header";
-import dasksImage from "../assets/desks.jpg"
+import Header from "../../components/Header/Header";
+import dasksImage from "../../assets/desks.jpg"
 
 function Desks() {
   return ( 

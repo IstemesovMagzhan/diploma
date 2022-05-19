@@ -15,10 +15,10 @@ function Nav() {
       <Logo /> 
         <ul>
           <NavItem url="/home"active>Home</NavItem>
-          <NavItem url="/tables">Tables</NavItem>
           <NavItem url="/chairs" >Chairs</NavItem>
           <NavItem url="/desks">Desks</NavItem>
-          <NavItem url="/about">About</NavItem>
+          <NavItem url="/storage">Storage</NavItem>
+          <NavItem url="/accessories">Accessories</NavItem>
           <NavItem url="/contacts">Contacts</NavItem>
         </ul>
       </div>

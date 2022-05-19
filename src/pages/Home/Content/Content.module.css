@@ -1,0 +1,44 @@
+.Content {
+  text-align: center;
+  position:  relative;
+}
+
+.Content img {
+  width: 100%;
+  height: 65vh;
+  min-width: 360px;
+  object-fit: cover;
+  object-position: center;
+  margin: 20px 0;
+    
+
+
+
+}
+.Content section {
+  position: absolute;
+  left: 30px;
+  top: 10rem;
+  color: black;
+
+  max-width: 30rem;
+}
+.Content section h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.Content section div {
+  font-size: 18px;
+}
+.Content section button {
+  background-color: rgb(120, 190, 32);
+  border: none;
+  margin: 0 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.Content section a {
+  text-decoration: none;
+  color: black;
+}
