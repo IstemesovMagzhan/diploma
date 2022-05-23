@@ -3,8 +3,8 @@ import classes from "./ProductList.module.css";
 
 function ProductList({ products }) {
 
-  const productItem = Object.keys(products).map(id => (
-    <ProductItem key={id} product={products[id]} />
+  const productItem = products.map( product => (
+    <ProductItem key={product.producrId} product={product} />
   ));
   return (
     <div className={classes.ProductList}>
