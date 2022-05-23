@@ -1,0 +1,27 @@
+.ProductItem img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 3);*/
+
+}
+.ProductItem {
+  position: relative;
+  flex: 0 0 30%;
+  padding: 0 15px;
+  text-align: center;
+}
+.ProductItem:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.152);
+}
+.ProductItem a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ProductItem a:hover {
+  color: rgb(120, 190, 32);
+  text-decoration: underline;
+}
