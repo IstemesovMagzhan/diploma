@@ -7,6 +7,7 @@ import Contacts from "./pages/Contacts/Contacts";
 
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
+import Product from "./pages/Product";
 
 
 function App() {
@@ -15,18 +16,24 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/home" element={<Home />} />
+
+
           <Route path="/chairs" element={<Chairs />} />
+          <Route path="products/:productId" element={<Product />} />
+
+
+
           <Route path="/desks" element={<Desks />} />
           <Route path="/storage" element={<Storage />} />
           <Route path="/accessories" element={<Accessories />} />
-          <Route path="/contacts" element={<Contacts/>} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </Layout>
-      
 
-    
-      
-      
+
+
+
+
     </div>
   );
 }

@@ -15,8 +15,8 @@ function Content() {
              <div>Shop comfortable and stylish products you need to create an office you love.
           </div>
           </div>
-          <button><a href="#">SHOP FOR HOME</a></button>
-          <button><a href="#">SHOP FOR BUSINESS</a></button>
+          <button><a href="/">SHOP FOR HOME</a></button>
+          <button><a href="/">SHOP FOR BUSINESS</a></button>
         </section>
       </div>
     </>

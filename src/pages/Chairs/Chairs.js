@@ -15,6 +15,8 @@ function Chairs() {
     
     
     <ProductList products={getProducts()} />
+
+    
   </>
     
    );
