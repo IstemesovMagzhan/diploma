@@ -11,12 +11,12 @@
   background-position: center;
   background-size: 70%;
 
-  background-color: rgb(120, 190, 32);
+  background-color: black;
   border: none;
   
 }
 
-@media (max-width: 620px) {
+@media (max-width: 750px) {
   .NavToggle {
     display: inline-block;
   }

@@ -2,6 +2,12 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 750px) {
+  .Logo {
+    display: flex;
+    margin: 0 auto;
+  }
+}
 .Logo div a {
   text-decoration: none;
   font-weight: bolder;
@@ -14,3 +20,10 @@
   font-size: 18px;
   padding-left: 0.1rem;
 }
+
+@media (max-width: 957px) {
+  .Logo span {
+    display: none;
+  }
+}
+ 

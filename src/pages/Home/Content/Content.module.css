@@ -42,3 +42,9 @@
   text-decoration: none;
   color: black;
 }
+@media (max-width: 650px) {
+  .Content button {
+    display: flex;
+  }
+
+}
