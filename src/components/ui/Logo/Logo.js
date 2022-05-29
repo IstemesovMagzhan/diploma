@@ -5,6 +5,7 @@ function Logo() {
     <div className={classes.Logo}>
       <div><a href="/Home">CHAIR</a></div>
       <span>Make your space work</span>
+      <div className={classes.callback}></div>
     </div>
    );
 }

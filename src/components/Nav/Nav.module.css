@@ -1,32 +1,13 @@
 .Nav {
-  background-color:  white;
-}
-
-@media (max-width: 750px) {
-  .Nav {
-    background-color: black;
-  }
-
-}
-.Nav .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-
-
-.Nav ul {
-  display: flex;
   list-style-type: none;
   margin: 0;
+  display: flex;
+  padding-left: 0;
 }
-
-@media (max-width: 750px) {
-  .Nav ul {
-    display: none;
+@media(max-width: 750px) {
+  .Nav {
+    flex-direction: column;
   }
-
 }
+
+

@@ -5,16 +5,16 @@
 
 .Content img {
   width: 100%;
-  height: 65vh;
+  height: 80vh;
   min-width: 360px;
   object-fit: cover;
   object-position: center;
   margin: 20px 0;
     
-
-
-
 }
+.Content img:nth-of-type(2) {
+  display: none;
+} 
 .Content section {
   position: absolute;
   left: 30px;
@@ -37,14 +37,61 @@
   padding: 20px 30px;
   border-radius: 10px;
   font-weight: 600;
+  min-width: 13rem;
+}
+.Content section button:hover {
+  background-color: rgb(93, 164, 5);
 }
 .Content section a {
   text-decoration: none;
   color: black;
 }
-@media (max-width: 650px) {
-  .Content button {
+
+
+
+@media (max-width: 750px) {
+  .Content section button {
     display: flex;
+    margin: 10px auto ;
+
+  }
+
+}
+
+@media (max-width: 750px) {
+  .Content section {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+  }
+
+}
+@media (max-width: 650px) {
+  .Content section {
+    position: absolute;
+    top: 30px;
+    left: 55px;
+  }
+
+}
+@media (max-width: 550px) {
+  .Content section {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+
+}
+@media (max-width: 750px) {
+  .Content img {
+    display: none;
+  }
+
+}
+@media (max-width: 750px) {
+  .Content img:nth-of-type(2) {
+    display: block;
+    height: 95vh;
   }
 
 }
