@@ -8,6 +8,8 @@ import Contacts from "./pages/Contacts/Contacts";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";
+import Categories from "./pages/Categories";
+import Category from "./pages/Category";
 
 
 function App() {
@@ -19,7 +21,10 @@ function App() {
 
 
           <Route path="/chairs" element={<Chairs />} />
-          <Route path="products/:productId" element={<Product />} />
+          <Route path="/products/:productId" element={<Product />} />
+
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/categories/:categoryId" element={<Category />} />
 
 
 
