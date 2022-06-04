@@ -9,21 +9,24 @@ const categories = [
     categoryId: "chairs",
     title: "Chairs",
     image: chairsCategoryImage,
-    discription: "1",
+    discription: `chairs n1`,
   },
   {
     categoryId: "descks",
-    title: descksCategoryImage,
+    title: "descks",
+    image: descksCategoryImage,
     discription: "b",
   },
   {
     categoryId: "storage",
-    title: accessoriesCategoryImage,
+    title: "storage",
+    image: accessoriesCategoryImage,
     discription: "3",
   },
   {
     categoryId: "accessories",
-    title: storageCategoryImage,
+    title: "accessories",
+    image: storageCategoryImage,
     discription: "4",
   }
 ];

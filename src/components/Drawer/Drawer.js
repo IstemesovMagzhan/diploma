@@ -1,6 +1,7 @@
 import Nav from "../Nav/Nav";
-import Logo from "../ui/Logo/Logo";
 import classes from "./Drawer.module.css";
+import { FiX } from "react-icons/fi";
+import { BsCart3 } from "react-icons/bs";
 
 function Drawer({open, toggle}) {
   const classNames = [classes.Drawer];
@@ -13,8 +14,8 @@ function Drawer({open, toggle}) {
 
   return ( 
     <div className={classNames.join(" ")}>
-      <div onClick={toggle} className={classes.backdrop}></div>
-      <div className={classes.content}>
+      <div onClick={toggle} className={classes.backdrop}><div><a href="#"><BsCart3 /></a> <FiX /></div></div>
+      <div onClick={toggle} className={classes.content}>
          <Nav />
       </div>
       

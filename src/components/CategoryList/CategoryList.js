@@ -3,14 +3,17 @@ import classes from "./CategoryList.module.css";
 
 function CategoryList({ categories }) {
 
-  const categoryItems = categories.map( category => (
+  const categoryItems = categories.map(category => (
     <CategoryItem key={category.categoryId} category={category} />
   ));
 
 
   return (
-    <div className={classes.CategoryList}>
-      {categoryItems}
+    <div className={classes.shopbyct}>
+      <div>Shop by Category</div>
+      <div className={classes.CategoryList}>
+        {categoryItems}
+    </div>
     </div>
   );
 }

@@ -3,16 +3,18 @@
   object-fit: cover;
   object-position: center;
   
-  /*box-shadow: 0 0 10px rgba(0, 0, 0, 3);*/
-
+  
 }
 .CategoryItem {
   position: relative;
-  flex: 0 0 15%;
+  flex: 0 0 25%;
   padding: 0 15px;
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 0px;
 }
+
+
+
 .CategoryItem:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.152);
 }

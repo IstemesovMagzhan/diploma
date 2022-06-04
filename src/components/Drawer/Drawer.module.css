@@ -14,13 +14,23 @@
   z-index: 100; 
 
   transform: translateX(-750px);
-  transition: transform 1s;
+  transition: transform .2s;
 }
 .open .content {
   transform: translateX(0px);
 }
+.Drawer .backdrop div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 45px;
+  padding: 10px 5px 0 15px;
+}
+.Drawer .backdrop div a {
+  color: white;
+}
 .Drawer .backdrop {
   background-color: black;
+  color: white;
 
   position: fixed;
   top: 0;
@@ -28,10 +38,12 @@
   left: 0;
   bottom: 0;
   z-index: 90;
-  max-height: 4.5rem;
+  max-height: 4rem;
   margin-top: 0px;
+  border-bottom: 1px solid white;
 
   display: none;
+  
 }
 .open .backdrop {
   display: block;
