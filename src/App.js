@@ -26,6 +26,8 @@ function App() {
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<Category />} />
 
+          {/* <Route path="/categoryId/:category" element={<SubCategory />} /> */}
+
 
 
           <Route path="/desks" element={<Desks />} />

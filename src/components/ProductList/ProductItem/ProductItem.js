@@ -8,25 +8,21 @@ function ProductItem({ product }) {
     <div className={classes.ProductItem}>
       <div className={classes.wrapper}>
         <div className={classes.container}>
-          <div className={classes.top}></div>
+          <div className={classes.top}>
+            <img src={product.image} />
+          </div>
           <div className={classes.bottom}>
             <div className={classes.left}>
               <div className={classes.details}>
-                <h1>Chair</h1>
-                <p>£250</p>
+                <section>{product.title}</section>
+                <p>${product.price}</p>
               </div>
-              <div className={classes.buy}><i className={`${classes.material} ${classes.icons}`}><BsCart3 className={classes.bs}/></i></div>
-            </div>
-            <div className={classes.right}>
-              <div className={classes.done}><i className={`${classes.material} ${classes.icons}`}>done</i></div>
-              <div className={classes.details}>
-                <h1>Chair</h1>
-                <p>Added to your cart</p>
-              </div>
-              <div class={classes.remove}><i className={`${classes.material} ${classes.icons}`}>clear</i></div>
+              <div className={classes.buy}><i><BsCart3 className={classes.bs} /></i></div>
             </div>
           </div>
         </div>
+
+
         <div className={classes.inside}>
           <div className={classes.icon}><i class={`${classes.material} ${classes.icons}`}>info_outline</i></div>
           <div className={classes.contents}>

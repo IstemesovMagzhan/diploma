@@ -2,15 +2,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Content.module.css";
-import home2Image from "../../../assets/Home2.webp";
 
 
-function Content({ image }) {
+function Content({img, img2}) {
   return (
     <>
       <div className={classes.Content}>
-        <img src={image} alt="img" />
-        <img src={home2Image} alt="img" />
+        
+        <img src={img2} alt="img" />
+        <img src={img} alt="img" />
         <section>
           <div>
             <h1>Your Office. Your Style.</h1>

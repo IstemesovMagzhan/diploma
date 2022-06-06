@@ -4,3 +4,15 @@
   flex-wrap: wrap;
   margin: 20px 0;
 }
+@media(max-width: 750px) {
+  .ProductList {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media(max-width: 990px) {
+  .ProductList {
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -7,7 +7,7 @@ function Desks() {
       <Header 
         title="Executive Desks"
         image={dasksImage}>
-      <p>HON executive desks give you the space to call the shots in style. HON executive desks combine a hard-working space with a luxurious, sophisticated style that sends a message.</p>
+        <p>HON executive desks give you the space to call the shots in style. HON executive desks combine a hard-working space with a luxurious, sophisticated style that sends a message.</p>
       </Header>
     </>
    );
