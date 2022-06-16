@@ -8,7 +8,7 @@ function ProductItem({ product }) {
       <div className={classes.wrapper}>
         <div className={classes.container}>
           <div className={classes.top}>
-            <img src={product.image} alt={image}/>
+            <img src={product.image} alt="img"/>
           </div>
           <div className={classes.bottom}>
             <div className={classes.left}>
