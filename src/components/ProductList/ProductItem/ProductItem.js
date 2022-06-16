@@ -1,5 +1,4 @@
 import classes from "./ProductItem.module.css";
-import { Link } from "react-router-dom";
 import { BsCart3 } from "react-icons/bs";
 
 
