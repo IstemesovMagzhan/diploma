@@ -12,6 +12,9 @@
 .ProductItem .bs {
   background-color: transparent;
 }
+.buy i {
+  padding: 22px;
+}
 
 .wrapper {
   width: 300px;

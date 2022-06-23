@@ -1,22 +1,28 @@
 import classes from "./ProductItem.module.css";
 import { BsCart3 } from "react-icons/bs";
+import { Link, useParams } from "react-router-dom";
+import CartButton from "../../CartButton/CartButton";
 
 
 function ProductItem({ product }) {
+  const params = useParams();
   return (
     <div className={classes.ProductItem}>
       <div className={classes.wrapper}>
         <div className={classes.container}>
           <div className={classes.top}>
-            <img src={product.image} alt="img"/>
+            <img src={product.image} alt="img" />
           </div>
           <div className={classes.bottom}>
             <div className={classes.left}>
-              <div className={classes.details}>
-                <section>{product.title}</section>
-                <p>${product.price}</p>
-              </div>
-              <div className={classes.buy}><i><BsCart3 className={classes.bs} /></i></div>
+              <Link to={"/products/" + product.productId}>
+                <div className={classes.details}>
+                  <section>{product.title}</section>
+                  <p>${product.price}</p>
+                </div>
+              </Link>
+              <div className={classes.buy}><CartButton productId={params.productId}><i><BsCart3 className={classes.bs} /></i></CartButton></div>
+
             </div>
           </div>
         </div>

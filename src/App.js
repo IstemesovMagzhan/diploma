@@ -10,6 +10,8 @@ import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
           <Route path="/storage" element={<Storage />} />
           <Route path="/accessories" element={<Accessories />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </Layout>
 
