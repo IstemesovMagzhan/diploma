@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const checkout = createAsyncThunk('cart/checkout', async (order, thunkAPI) => {
-  const response = await axios.post('https://diploma-b07d2-default-rtdb.firebaseio.com/orders.json', order);
+  const response = await axios.post('https://diploma-d5005-default-rtdb.firebaseio.com/orders.json', order);
 
   return response.data;
 });
@@ -27,7 +27,7 @@ const cartSlice = createSlice({
       }
       saveInStorage(store.items);
     },
-    delete: (store, action) => {
+    remove: (store, action) => {
       delete store.items[action.payload];
       saveInStorage(store.items);
     },
@@ -55,5 +55,7 @@ const cartSlice = createSlice({
     }
   }
 });
+
+export const { add, remove, increment, decrement } = cartSlice.actions;
 
 export default cartSlice.reducer;
