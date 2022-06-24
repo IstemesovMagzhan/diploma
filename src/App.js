@@ -12,6 +12,7 @@ import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import Auth from "./pages/Auth";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/auth" element={<Auth />} />
         </Routes>
       </Layout>
 
