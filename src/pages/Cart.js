@@ -3,7 +3,7 @@ import image from "../assets/Home.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";
-import { increment, remove } from "../redux/cartSlice";
+import { decrement, increment, remove } from "../redux/cartSlice";
 
 function Cart() {
   const items = useSelector(store => store.cart.items);

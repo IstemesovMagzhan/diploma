@@ -1,5 +1,8 @@
 .CartButton {
+  padding: 15px 40px;
+  border-radius: 15px;
   border: 0;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgb(93, 164, 5);
+  color: rgb(0, 60, 62);;
 }
 

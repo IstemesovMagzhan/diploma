@@ -1,7 +1,6 @@
 import classes from "./ProductItem.module.css";
 import { BsCart3 } from "react-icons/bs";
 import { Link, useParams } from "react-router-dom";
-import CartButton from "../../CartButton/CartButton";
 
 
 function ProductItem({ product }) {
@@ -21,7 +20,7 @@ function ProductItem({ product }) {
                   <p>${product.price}</p>
                 </div>
               </Link>
-              <div className={classes.buy}><CartButton productId={params.productId}><i><BsCart3 className={classes.bs} /></i></CartButton></div>
+              <div className={classes.buy}><i><BsCart3 className={classes.bs} /></i></div>
 
             </div>
           </div>
