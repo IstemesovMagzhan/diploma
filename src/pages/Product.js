@@ -23,11 +23,13 @@ function Product() {
         style={styles}>
         {product.discription}
       </Header> */}
-      <div>
-        <h1>{product.title}</h1>
-        <img src={product.image} alt={product.title} style={styles} />
-        <p>{product.discription}</p>
-      </div>
+      <Header>
+        <div>
+          <h1>{product.title}</h1>
+          <img src={product.image} alt={product.title} style={styles} />
+          <p>{product.discription}</p>
+        </div>
+      </Header>
       <CartButton productId={params.productId}>Add to cart</CartButton>
     </>
   );

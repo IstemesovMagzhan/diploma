@@ -7,6 +7,6 @@ export default function CartLink() {
   });
 
   return (
-    <NavLink to="/cart">Cart ({number})</NavLink>
+    <NavLink to="/cart"> Cart ({number})</NavLink>
   );
 }
