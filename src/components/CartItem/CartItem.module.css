@@ -1,3 +1,6 @@
 .CartItem {
   display: flex;
 }
+.CartItem img {
+  width: 300px;
+}
