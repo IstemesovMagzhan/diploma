@@ -18,7 +18,9 @@ function Product() {
     <>
       {/* <Header
         title={product.title}
-        image={product.image}>
+        image={product.image} 
+        alt={product.title} 
+        style={styles}>
         {product.discription}
       </Header> */}
       <div>

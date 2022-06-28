@@ -1,10 +1,9 @@
 import classes from "./ProductItem.module.css";
 import { BsCart3 } from "react-icons/bs";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function ProductItem({ product }) {
-  const params = useParams();
   return (
     <div className={classes.ProductItem}>
       <div className={classes.wrapper}>
