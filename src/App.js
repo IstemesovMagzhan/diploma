@@ -13,20 +13,13 @@ import Category from "./pages/Category";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
-import { useDispatch } from "react-redux";
-import { useEffect } from "react";
+import SignOut from "./pages/SignOut/SignOut";
+
 
 
 
 
 function App() {
-
-
-  const dispatch = useDispatch();
-  
-  useEffect(() => {
-    dispatch({ type: 'cart/restore' });
-  }, []);
 
   return (
     <div className="App">
@@ -52,6 +45,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/signout" element={<SignOut />} />
         </Routes>
       </Layout>
 
