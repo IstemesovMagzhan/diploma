@@ -1,5 +1,15 @@
 .CartItem {
   display: flex;
+  align-items: center;
+}
+.CartItem button {
+  border-radius: 10px;
+  background-color: rgb(120, 190, 32);
+  list-style-type: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: large;
+  margin: 5px 0;
 }
 .CartItem img {
   width: 300px;

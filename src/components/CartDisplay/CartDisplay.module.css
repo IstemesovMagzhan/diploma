@@ -1,3 +1,4 @@
-CartDisplay .cartItem {
+.CartDisplay .CartItem {
   display: flex;
+  
 }

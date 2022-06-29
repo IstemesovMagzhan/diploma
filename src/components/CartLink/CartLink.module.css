@@ -1,0 +1,16 @@
+
+.CartLink {
+  text-decoration: none;
+  color: rgb(0, 60, 62);
+  margin: 0 3rem 0 0;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(120, 190, 32);
+}
+@media(max-width: 750px) {
+  .CartLink {
+    margin: 0 0.5rem;
+    font-size: 25px;
+  }
+}
