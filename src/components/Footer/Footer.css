@@ -6,3 +6,12 @@ Footer {
   padding: 1rem;
   color: white;
 }
+.allfooter {
+  display: flex;
+}
+Footer .footer-a ul {
+  list-style-type: none;
+}
+section {
+  padding: 0 1rem;
+}

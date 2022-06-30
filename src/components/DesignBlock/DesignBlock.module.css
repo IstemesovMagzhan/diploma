@@ -1,0 +1,21 @@
+.DesignBlock {
+  display:  flex;
+  flex-wrap: wrap;
+  background-color: rgba(120, 190, 32, 0.1);
+  padding: 3rem 7rem;
+}
+.DesignBlock .col {
+  flex: 0 0 30%;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.DesignBlock .foricons {
+  font-size: 2rem;
+}
+@media(max-width: 850px) {
+  .DesignBlock {
+    flex-direction: column;
+    width: 100%;
+  }
+}
