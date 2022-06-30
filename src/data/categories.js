@@ -18,14 +18,14 @@ const categories = [
     discription: "b",
   },
   {
-    categoryId: "storage",
-    title: "storage",
+    categoryId: "accessories",
+    title: "accessories",
     image: accessoriesCategoryImage,
     discription: "3",
   },
   {
-    categoryId: "accessories",
-    title: "accessories",
+    categoryId: "storage",
+    title: "storage",
     image: storageCategoryImage,
     discription: "4",
   }
