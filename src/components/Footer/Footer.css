@@ -12,6 +12,21 @@ Footer {
 Footer .footer-a ul {
   list-style-type: none;
 }
-section {
-  padding: 0 1rem;
+Footer .footer-a ul a {
+  text-decoration: none;
+  color: white;
+}
+.allfooter .footer-logo {
+  max-width: 50rem;
+}
+.allfooter .footer-logo a {
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 0 1rem 0 0;
+  border-right: 2px solid rgb(120, 190, 32);
+  color: rgb(120, 190, 32);
+  font-size: 2rem;
+}
+.allfooter .footer-text h1 {
+  margin: 0;
 }

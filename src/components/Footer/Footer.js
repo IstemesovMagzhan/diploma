@@ -11,9 +11,9 @@ function Footer() {
     <footer className="Footer">
       <div className="container">
         <div className="allfooter">
-          <div>
+          <div className="footer-logo">
             <div><a href="/">CHAIR</a></div>
-            <div>
+            <div className="footer-text">
               <h1>Stay in touch.</h1>
               <p>Sign up to receive inspirational updates related to product enhancements and the latest workplace trends.</p>
             </div>
